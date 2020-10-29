@@ -2,6 +2,14 @@
 env/
 venv/
 
+<<<<<<< HEAD
+db.sqlite3
+/db.sqlite3
+*db.sqlite3
+.db.sqlite3
+
+=======
+>>>>>>> 18d98da1505457d650deb95406301c907f492a1b
 __pycache__/
 *.py[cod]
 

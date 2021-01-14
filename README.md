@@ -36,3 +36,23 @@ REVIEWS: отзывы на произведения. Отзыв привязан
 COMMENTS: комментарии к отзывам. Комментарий привязан к определённому отзыву
 
 ### Ресурс AUTH:
+#### Получение JWT-токена в обмен на email и confirmation_code.
+POST /auth/token
+Request samples 
+{
+  "email": "string",
+  "confirmation_code": "string"
+}
+Responses
+200
+{
+    "token": "string"
+}
+400
+{
+    "field_name": 
+    [
+        "string"
+    ]
+}
+
